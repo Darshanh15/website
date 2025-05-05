@@ -696,6 +696,10 @@ nav .fa{
     color: #f44336;
 }
 
+.icons a{
+    text-decoration: none;
+}
+
 
   
 /* gallery */
