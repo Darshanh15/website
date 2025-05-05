@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with Top Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+      integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+
+    <section class="topbar">
+        <div class="container">
+          <ul class="topbar-list">
+            <li><i class="fa fa-phone"></i> +91 9880833556 </li>
+            <li><i class="fa fa-envelope"></i> bpuc.vnagar@gmail.com</li>
+            <li><i class="fa fa-map-marker"></i>Vijayanagara, Bengaluru - 40 (Near Vijayanagar Metro station)</li>
+          </ul>
+        </div>
+      </section>
+      
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Basaveshwara Pre University College</h1>
+        <p>Basaveshwara Pre-University College offers quality education with a focus on academic excellence and character building.
+            It provides modern facilities, experienced faculty, and a supportive environment for holistic student growth.
+        </p>
+        <a href="index.html" class="hero-btn">visit us to know more</a>
+      </div>
+    </section>
+
+    <!-- --------curse------- -->
+      <section class="course-section">
+        <h1>Explore Our Diverse Courses</h1>
+        <p style="max-width: 700px; margin: 20px auto; color: #666;">
+            Discover a range of meticulously designed courses tailored to your academic aspirations. We offer comprehensive programs in Science and Commerce streams, ensuring a strong foundation for your future.
+        </p>
+
+        <div class="course-grid">
+            <div class="course-card science-card">
+                <h3 class="course-title">Science Stream</h3>
+                <div class="course-subjects">
+                    <span><strong>PCMB:</strong> Physics, Chemistry, Mathematics, Biology</span>
+                    <span><strong>PCMC:</strong> Physics, Chemistry, Mathematics, Computer Science</span>
+                </div>
+                <p class="course-description">
+                    Long-term, intensive coaching for competitive exams like KCET, JEE, and NEET. Our experienced faculty provides in-depth knowledge and rigorous practice.
+                </p>
+            </div>
+
+            <div class="course-card commerce-card-1">
+                <h3 class="course-title">Commerce Stream</h3>
+                <div class="course-subjects">
+                    <span><strong>HEBA:</strong> History, Economics, Business Studies, Accountancy</span>
+                    <span><strong>CEBA:</strong> Computer Science, Economics, Business Studies, Accountancy</span>
+                </div>
+                <p class="course-description">
+                    Specialized courses designed to build a strong understanding of commerce principles, including dedicated preparation for the CA Foundation exams.
+                </p>
+            </div>
+
+            <div class="course-card commerce-card-2">
+                <h3 class="course-title">Arts Stream</h3>
+                <div class="course-subjects">
+                    <span>History, Economics, Political Science, Sociology</span>
+                </div>
+                <p class="course-description">
+                    A comprehensive program focusing on the social sciences, providing a broad understanding of human society and its complexities.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------campus------ -->
+
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>Our campus offers a clean, green, and welcoming environment that fosters learning and development.</p>
+        <div class="row">
+          <div class="campus-col">
+            <img src="images/since.jpg" alt="Library">
+            <div class="layer">
+              <h3>SCIENCE STREAM</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="images/class.jpg" alt="Classroom">
+            <div class="layer">
+              <h3>COMMERCE STREAM</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="images/arts.jpg" alt="Student">
+            <div class="layer">
+              <h3>ARTS STREAM</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="facilities">
+        <h1>Our Facilites</h1>
+        <p>Our well-equipped facilities support learning, creativity, and growth in a safe environment.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/clsroom.jpeg" alt="">
+                <h3>Class Room</h3>
+                <p>A classroom is a place where students and teachers gather to learn and grow together.
+                    It has desks, a board, and tools that support learning and teamwork.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/lab.jpeg" alt="">
+                <h3>Lab class room</h3>
+                <p>A lab classroom is a special space for hands-on experiments and practical learning.
+                    It is equipped with tools, safety gear, and materials to explore science and technology.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/pt1.jpeg" alt="">
+                <h3>Sports</h3>
+                <p>Sports help keep our body fit and teach teamwork, discipline, and leadership.
+                    They are fun activities that improve physical strength and mental sharpness.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/dance.jpeg" alt="">
+                <h3>Cultural Activities</h3>
+                <p>Cultural activities showcase traditions, art, music, and dance from different communities.
+                    They help students express creativity and build appreciation for diverse cultures.</p>
+            </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <!-- <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      
+        <div class="testimonial-slider">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial-col">
+              <img src="images/clgbg.jpg" alt="Student">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae praesentium delectus deserunt assumenda.</p>
+            </div>
+            <div class="testimonial-col">
+              <img src="images/clgbg.jpg" alt="Student">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae praesentium delectus deserunt assumenda.</p>
+            </div>
+            <div class="testimonial-col">
+              <img src="images/clgbg.jpg" alt="Student">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae praesentium delectus deserunt assumenda.</p>
+            </div>
+            <div class="testimonial-col">
+              <img src="images/clgbg.jpg" alt="Student">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae praesentium delectus deserunt assumenda.</p>
+            </div>
+             -->
+          <!-- </div>
+          <button class="nav prev" onclick="slide(-1)">&#10094;</button>
+          <button class="nav next" onclick="slide(1)">&#10095;</button>
+        </div>
+      </section> --> 
+
+      <!-- contact -->
+      
+      <div class="contact">
+        <h1>Enrol For Our varius Online Courses <br>Anywhere From the Banglre </h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </div>
+      
+
+    <!-- <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consectetur</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>madewith <i class="fa fa-heart-o"></i>by Klever vision</p>
+    </section> -->
+
+
+
+      <!-- FOOTER START -->
+      <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <h1>Course</h1>
+          <ul>
+            <li>Science</li>
+            <li>commerce</li>
+            <li>Arts</li>
+          </ul>
+        </div>
+        
+        <div class="col">
+          <h1>Menu</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="admission.html">Admission</a></li>
+          </ul>
+        </div>
+        <!-- <div class="col">
+          <h1>Resources</h1>
+          <ul>
+            <li>Webmail</li>
+            <li>Redeem code</li>
+            <li>WHOIS lookup</li>
+            <li>Site map</li>
+            <li>Web templates</li>
+            <li>Email templates</li>
+          </ul>
+        </div> -->
+        <div class="col">
+          <h1>Contact</h1>
+          <ul>
+            <li><i class="fa fa-phone"></i> +91 9880833556 </li>
+            <li><i class="fa fa-envelope"></i> bpuc.vnagar@gmail.com</li>
+            <li><i class="fa fa-map-marker"></i>Vijayanagara, Bengaluru - 40 (Near Vijayanagar Metro station)</li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Social</h1>
+          <div class="icons">
+            <a href="https://www.facebook.com/share/1AgQspcScx/" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/basaveshwara_pu_college?igsh=eWlobGVpZmhhbTR0" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.instagram.com/basaveshwara_pu_college?igsh=eWlobGVpZmhhbTR0" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/919731543787" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+      <!-- END OF FOOTER -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px ";
+      }
+    </script>
+
+<script>
+    let currentIndex = 0;
+  
+    function slide(direction) {
+      const track = document.getElementById("testimonialTrack");
+      const totalItems = track.children.length;
+      const width = track.children[0].offsetWidth + 20;  // Adding 20px margin
+  
+      currentIndex += direction;
+  
+      // Wrap around
+      if (currentIndex >= totalItems) currentIndex = 0;
+      if (currentIndex < 0) currentIndex = totalItems - 1;
+  
+      track.style.transform = `translateX(-${width * currentIndex}px)`;
+    }
+  </script>
+  
+  
+  </body>
+</html>

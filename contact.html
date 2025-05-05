@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar with Top Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+      integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="topbar">
+      <div class="container">
+        <ul class="topbar-list">
+          <li><i class="fa fa-phone"></i> +91 9880833556</li>
+          <li><i class="fa fa-envelope"></i> bpuc.vnagar@gmail.com</li>
+          <li>
+            <i class="fa fa-map-marker"></i>Vijayanagara, Bengaluru - 40 (Near
+            Vijayanagar Metro station)
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Contact US</h1>
+        <p>
+            For any inquiries or assistance, Basaveshwara Pre-University College is available through various contact channels.</p>
+        <a href="index.html" class="hero-btn">visit us to know more</a>
+      </div>
+    </section>
+
+    <!-- --------contact------- -->
+
+    <section class="contact">
+        <div class="contact-container">
+          <!-- Image Column -->
+          <div class="contact-image">
+            <img src="images/nameboard.jpeg" alt="Contact Image">
+          </div>
+      
+          <!-- Form Column -->
+          <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form onsubmit="sendWhatsApp(); return false;">
+                <div class="form-group">
+                  <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" id="enq" placeholder="Your Enquiry" required>
+                </div>
+                <div class="form-group">
+                  <input type="tel" id="number" placeholder="Your Number" required>
+                </div>
+                <div class="form-group">
+                  <button type="submit">Contact Now</button>
+                </div>
+              </form>
+              
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- -------campus------ -->
+
+    <!-- testimonials -->
+
+    <!-- contact -->
+
+    <!-- FOOTER START -->
+    <div class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>Course</h1>
+          <ul>
+            <li>Science</li>
+            <li>commerce</li>
+            <li>Arts</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h1>Menu</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="admission.html">Admission</a></li>
+          </ul>
+        </div>
+        <!-- <div class="col">
+          <h1>Resources</h1>
+          <ul>
+            <li>Webmail</li>
+            <li>Redeem code</li>
+            <li>WHOIS lookup</li>
+            <li>Site map</li>
+            <li>Web templates</li>
+            <li>Email templates</li>
+          </ul>
+        </div> -->
+        <div class="col">
+          <h1>Contact</h1>
+          <ul>
+            <li><i class="fa fa-phone"></i> +91 9880833556</li>
+            <li><i class="fa fa-envelope"></i> bpuc.vnagar@gmail.com</li>
+            <li>
+              <i class="fa fa-map-marker"></i>Vijayanagara, Bengaluru - 40 (Near
+              Vijayanagar Metro station)
+            </li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Social</h1>
+          <div class="icons">
+            <a href="https://www.facebook.com/share/1AgQspcScx/" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/basaveshwara_pu_college?igsh=eWlobGVpZmhhbTR0" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.instagram.com/basaveshwara_pu_college?igsh=eWlobGVpZmhhbTR0" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/919731543787" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- END OF FOOTER -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px ";
+      }
+    </script>
+
+    
+<script>
+    function sendWhatsApp() {
+      var name = document.getElementById("name").value;
+      var enquiry = document.getElementById("enq").value;
+      var number = document.getElementById("number").value;
+  
+      // ✅ Replace with your correct WhatsApp number (no spaces, no +)
+      var phoneNumber = "919731543787";
+  
+      var message = `Hi, my name is ${name}. My number is ${number}. I would like to enquire about: ${enquiry}`;
+      var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+      window.open(url, '_blank');
+    }
+  </script>
+  
+  </body>
+</html>
