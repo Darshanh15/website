@@ -1094,13 +1094,14 @@ nav .fa{
   .admission-form h2 {
     margin-bottom: 20px;
   }
+
   .about-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
-    flex-wrap: wrap;
     background-color: #f9f9f9;
     border-radius: 10px;
     margin: 2rem auto;
@@ -1121,27 +1122,29 @@ nav .fa{
     width: 100%;
     height: auto;
     border-radius: 10px;
+    object-fit: cover;
   }
   
   .text-column h1 {
     font-size: 2rem;
     color: #2c3e50;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   
   .text-column h2 {
     font-size: 1.5rem;
     color: #34495e;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   
   .text-column p {
     font-size: 1rem;
-    color: #555;
+    color: #444;
     line-height: 1.6;
+    margin-bottom: 1rem;
   }
   
-  /* Mobile Responsiveness */
+  /* Responsive design */
   @media (max-width: 768px) {
     .about-container {
       flex-direction: column;
@@ -1150,6 +1153,7 @@ nav .fa{
   
     .column {
       flex: 1 1 100%;
+      max-width: 100%;
     }
   
     .text-column h1 {
@@ -1159,8 +1163,87 @@ nav .fa{
     .text-column h2 {
       font-size: 1.25rem;
     }
+  
+    .text-column p {
+      font-size: 0.95rem;
+    }
   }
   
+  /* 
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .column {
+    flex: 1 1 45%;
+    padding: 1rem;
+  }
+  
+  .image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .text-column h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-column h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+  }
+  
+  .text-column p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  } */
+  
+  /* Responsive tweaks */
+  /* @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .column {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .text-column h1 {
+      font-size: 1.75rem;
+    }
+  
+    .text-column h2 {
+      font-size: 1.25rem;
+    }
+  
+    .text-column p {
+      font-size: 0.95rem;
+    }
+  }
+    */
 
   /* STYLES SPECIFIC TO FOOTER  */
   .footer {
