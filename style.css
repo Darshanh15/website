@@ -149,6 +149,7 @@ nav .fa{
 @media(max-width: 600px){
     .text-box h1{
         font-size: 20px;
+        top: 40px;
     }
 
     .nav-links ul li{
@@ -160,7 +161,7 @@ nav .fa{
         height: 100vh;
         width: 200px;
         height: 400px;
-        top: 150px;
+        top: 130px;
         right: -200px;
         text-align: left;
         z-index: 10;
@@ -372,6 +373,7 @@ nav .fa{
 
   @media (max-width: 400px) {
     .header h1 {
+        top: 0;
       font-size: 22px;
     }
    
@@ -899,10 +901,11 @@ nav .fa{
   .result-header{
     min-height: 75vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7)),url(images/resultssss.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7)),url(images/b244.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
+    top: 10%;
 }
 
 .result-header h1 {
@@ -994,7 +997,7 @@ nav .fa{
   .contact{
     margin: 70px auto;
     width: 90%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/clc\ bgss.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/bullding.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -1245,6 +1248,61 @@ nav .fa{
   }
     */
 
+
+    .map-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 20px;
+        background: #ffffff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      .map-column {
+        flex: 1 1 300px;
+        max-width: 600px;
+        box-sizing: border-box;
+      }
+  
+      .map-column iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+        border-radius: 8px;
+      }
+  
+      .map-column h2,
+      .map-column h1 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+  
+      .map-column ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      .map-column li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #555;
+      }
+  
+      .map-column li i {
+        margin-right: 8px;
+        color: #007BFF;
+      }
+  
+      @media (max-width: 768px) {
+        .map-column iframe {
+          height: 250px;
+        }
+        nav img {
+            width: 100px;
+        }
+      }
+
   /* STYLES SPECIFIC TO FOOTER  */
   .footer {
     width: 100%;
@@ -1365,3 +1423,7 @@ nav .fa{
       width: 100%;
     }
   }
+
+
+  
+  

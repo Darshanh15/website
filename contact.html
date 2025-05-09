@@ -97,6 +97,44 @@
           </div>
         </div>
       </section>
+
+
+      <div class="map-container">
+        <div class="column map-column">
+            <h1>Our Location</h1>
+            <div style="position: relative; width: 100%; max-width: 600px; border-radius: 8px; overflow: hidden;">
+                <!-- Clickable Overlay -->
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Basaveshwara+Pre+University+College+Vijayanagar+Bengaluru" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;">
+                </a>
+              
+                <!-- Embedded Map -->
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE_HERE" 
+                  width="100%" 
+                  height="300" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+              
+        </div>
+    
+        <div class="column map-column">
+          <h1>Contact Us</h1>
+          <ul>
+            <li><strong>Basaveshwara Pre-University College</strong></li> 
+            <li><i class="fa fa-phone"></i> +91 9880833556</li>
+            <li><i class="fa fa-envelope"></i> bpuc.vnagar@gmail.com</li>
+            <li><i class="fa fa-map-marker"></i> Vijayanagara, Bengaluru - 40 (Near Vijayanagar Metro station)</li>
+          </ul>
+        </div>
+      </div>
+    
       
 
     <!-- -------campus------ -->
@@ -161,7 +199,7 @@
             <a href="https://www.instagram.com/basaveshwara_pu_college?igsh=eWlobGVpZmhhbTR0" target="_blank">
               <i class="fa fa-linkedin"></i>
             </a>
-            <a href="https://wa.me/919731543787" target="_blank">
+            <a href="https://wa.me/919880833556" target="_blank">
               <i class="fa fa-whatsapp"></i>
             </a>
           </div>
@@ -189,7 +227,7 @@
       var number = document.getElementById("number").value;
   
       // ✅ Replace with your correct WhatsApp number (no spaces, no +)
-      var phoneNumber = "919731543787";
+      var phoneNumber = "919880833556";
   
       var message = `Hi, my name is ${name}. My number is ${number}. I would like to enquire about: ${enquiry}`;
       var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
